@@ -1,0 +1,13 @@
+#!/usr/bin/env ansible-playbook
+---
+
+
+- name: Apache Artemis
+  hosts: artemis
+  become: true
+  gather_facts: true
+  roles:
+    - role: java
+      tags: [java]
+    - role: artemis
+      tags: [artemis]

@@ -1,0 +1,6 @@
+---
+roles:
+  - src: bbaassssiiee.base_java8
+    name: java
+  - src: bbaassssiiee.base_amq
+    name: artemis
