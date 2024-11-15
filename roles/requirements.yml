@@ -1,6 +1,6 @@
 ---
 roles:
-  - src: bbaassssiiee.base_java8
+  - src: dockpack.base_java8
     name: java
-  - src: bbaassssiiee.base_amq
+  - src: dockpack.base_amq
     name: artemis
